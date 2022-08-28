@@ -1,6 +1,6 @@
 # libspeedhack-wrapper
 
-A simple Python script to use with hotkeys to increase/decrease a game's speed to your liking.
+A simple Python script to use with hotkeys for easier control of [libspeedhack](https://github.com/evg-zhabotinsky/libspeedhack).
 
 ## Description
 
