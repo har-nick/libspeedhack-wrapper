@@ -8,6 +8,8 @@ libspeedhack-wrapper takes two arguments, an operation, and an amount.
 
 It runs through libspeedhack's log output to find the game's current speed, does some magic with floats, and echoes it back out automatically.
 
+Notifications are also ran using notify-send. They *should* fail silently if you don't have them installed.
+
 ## Getting Started
 
 ### Installing
@@ -31,3 +33,9 @@ Minus values haven't been tested. Since oldSpeed and newSpeed values are only ad
 ## Help
 
 If you find something is wrong, please let me know. Or make a pull request! This is my first ever Python script, so any help goes a long way!
+
+## Todo:
+
+- [ ] Create a silent mode
+- [ ] Look at minus values
+- [ ] Fix bugs?
